@@ -1,0 +1,44 @@
+.container {
+  background-color: white;
+  color: black;
+}
+
+.labels-container {
+
+  display: grid;
+  grid-auto-flow: column;
+  width: 40%;
+  margin-inline: auto;
+}
+
+.contents-container {
+  width: 60%;
+  margin-inline: auto;
+
+}
+
+
+[each-content="each"] {
+  background-color: green;
+}
+
+
+.each-label {
+  background-color: yellow;
+  height: 50px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  text-align: center;
+  padding-top: 10px;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+
+.each-label:hover {
+  opacity: 0.8;
+  background-color: #989803b3;
+}
